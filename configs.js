@@ -5,7 +5,7 @@ YL.static = {
   iconBtnStart: 'html5', //主图标
   author: 'renalio',//作者
   contactInformation: 'renalio',//联系方式
-  officialWebsite: '//null',//软件官网
+  officialWebsite: 'https://github.com/RenaLio',//软件官网
   welcome: '本网站UI由 Renalio 强力驱动\n Hello.World',//加载完毕控制台提示信息
   copyrightDetail: 'null',//版权详细信息
   otherStatements: '',//其他信息（可留空）
