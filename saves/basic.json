@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "./res/img/wallpapers/bg1.jpg",
+        "wallpaper": "https://3o.hk/images/2022/03/30/wallhaven-o37o8l.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -11,8 +11,8 @@
         "wallpaperSlideIndex": 8,
         "openMax": 9,
         "idCounter": 179,
-        "themeColor": "rgba(2,35,64,1)",
-        "autoThemeColor": true,
+        "themeColor": "#8E8CD8",
+        "autoThemeColor": false,
         "wallpapers": [
             {
                 "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
@@ -72,6 +72,10 @@
             {
                 "image": "./res/img/wallpapers/bg14.jpg",
                 "preview": "./res/img/wallpapers/bg14_1.jpg"
+            },
+            {
+                "image": "https://3o.hk/images/2022/03/30/wallhaven-o37o8l.jpg",
+                "preview": ""
             }
         ],
         "pathRes": "./res",
