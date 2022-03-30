@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 173,
+        "idCounter": 179,
         "themeColor": "rgba(2,35,64,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -245,39 +245,6 @@
             "customTile": "",
             "urlRandomToken": true
         },
-        "ylui-documents": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "YLUI官方在线文档",
-            "icon": {
-                "type": "fa",
-                "content": "book",
-                "bg": "#d9ab4a"
-            },
-            "openMode": "outer",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "Yuri2",
-            "resizable": false,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "在线文档",
-            "url": "https://github.com:/yuri2peter/ylui/tree/master/documents",
-            "customTile": "",
-            "urlRandomToken": false
-        },
         "ylui-gitee": {
             "addressBar": false,
             "autoRun": 0,
@@ -417,8 +384,8 @@
             "badge": 0,
             "desc": "",
             "icon": {
-                "type": "fa",
-                "content": "",
+                "type": "img",
+                "content": "https://3o.hk/images/2022/03/30/unnamed.jpg",
                 "bg": "#2f3c99"
             },
             "openMode": "normal",
@@ -442,6 +409,72 @@
             "url": "https://pool.jinxnet.xyz/",
             "customTile": "https://pool.jinxnet.xyz/",
             "urlRandomToken": true
+        },
+        "app-175": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
+                "bg": "rgb(77,6,141)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "EdNovas的短链",
+            "url": "https://shortny.ednovas.xyz/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-176": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://3o.hk/images/2022/03/30/unnamed.jpg",
+                "bg": "rgb(182,128,174)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "EdNovas的节点池",
+            "url": "https://ednovas.design/",
+            "customTile": "",
+            "urlRandomToken": true
         }
     },
     "shortcuts": [
@@ -458,37 +491,31 @@
             "hash": ""
         },
         {
-            "title": "代码库",
-            "children": [
-                {
-                    "app": "ylui-documents",
-                    "title": "在线文档",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "ylui-github",
-                    "title": "github",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "app": "ylui-gitee",
-                    "title": "码云仓库",
-                    "params": {},
-                    "hash": ""
-                }
-            ]
-        },
-        {
             "app": "ylui-image-host",
             "title": "路过图床",
             "params": {},
             "hash": ""
         },
         {
-            "app": "app-172",
-            "title": "jinxnet节点池",
+            "title": "节点池",
+            "children": [
+                {
+                    "app": "app-172",
+                    "title": "jinxnet节点池",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-176",
+                    "title": "EdNovas的节点池",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        },
+        {
+            "app": "app-175",
+            "title": "EdNovas的短链",
             "params": {},
             "hash": ""
         }
@@ -529,17 +556,6 @@
                     "i": "146",
                     "params": {},
                     "hash": ""
-                },
-                {
-                    "x": 2,
-                    "y": 2,
-                    "w": 4,
-                    "h": 2,
-                    "app": "ylui-documents",
-                    "title": "在线文档",
-                    "i": "158",
-                    "params": {},
-                    "hash": ""
                 }
             ]
         }
@@ -548,12 +564,6 @@
         "width": 620,
         "height": 494,
         "sidebar": [
-            {
-                "app": "app-172",
-                "title": "jinxnet节点池",
-                "params": {},
-                "hash": ""
-            },
             {
                 "app": "yl-browser",
                 "title": "浏览器",
@@ -581,18 +591,6 @@
             "itemPushed-88": {
                 "app": "yl-app-store",
                 "title": "应用商店",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-153": {
-                "app": "ylui-documents",
-                "title": "在线文档",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-155": {
-                "app": "ylui-gitee",
-                "title": "码云仓库",
                 "params": {},
                 "hash": ""
             },
