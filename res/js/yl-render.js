@@ -415,7 +415,7 @@ YL.render = function (data) {
         if (first && !YL.static.serialNumber) {
           YL.onReady(function () {
             setTimeout(function () {
-              YL.msg("YLUI v" + YL.info.version + " 社区版", 'Welcome<br/>Hello<br/>' + '</p>');
+              YL.msg("YLUI v" + YL.info.version + " 社区版", 'Welcome to my website<br/>欢迎来到我的网站<br/>' + '</p>');
             }, 1500)
           });
         }
