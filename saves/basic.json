@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 191,
+        "idCounter": 197,
         "themeColor": "#8E8CD8",
         "autoThemeColor": false,
         "wallpapers": [
@@ -685,8 +685,8 @@
             "badge": 0,
             "desc": "",
             "icon": {
-                "type": "str",
-                "content": "",
+                "type": "img",
+                "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
                 "bg": "rgb(132,52,109)"
             },
             "openMode": "normal",
@@ -706,8 +706,8 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "",
-            "url": "",
+            "title": "品云测速",
+            "url": "http://speed.june628.ml/",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -718,9 +718,108 @@
             "badge": 0,
             "desc": "",
             "icon": {
+                "type": "img",
+                "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
+                "bg": "rgb(199,150,55)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "yumeng测速",
+            "url": "http://hkst.666138.xyz/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-193": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
+                "bg": "rgb(33,35,43)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "ZERO测速",
+            "url": "https://speedtest.zeroteam.top/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-194": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
                 "type": "str",
                 "content": "",
-                "bg": "rgb(199,150,55)"
+                "bg": "rgb(57,23,140)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "Fast",
+            "url": "https://fast.com/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-195": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "str",
+                "content": "",
+                "bg": "rgb(101,112,161)"
             },
             "openMode": "normal",
             "plugin": false,
@@ -830,6 +929,35 @@
         {
             "app": "app-181",
             "title": "EdNovas的导航",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "title": "订阅测速",
+            "children": [
+                {
+                    "app": "app-189",
+                    "title": "yumeng测速",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-193",
+                    "title": "ZERO测速",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-188",
+                    "title": "品云测速",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
+        },
+        {
+            "app": "app-194",
+            "title": "Fast",
             "params": {},
             "hash": ""
         }
