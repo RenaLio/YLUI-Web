@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 206,
+        "idCounter": 208,
         "themeColor": "#8E8CD8",
         "autoThemeColor": false,
         "wallpapers": [
@@ -689,7 +689,7 @@
                 "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
                 "bg": "rgb(132,52,109)"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -722,7 +722,7 @@
                 "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
                 "bg": "rgb(199,150,55)"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -755,7 +755,7 @@
                 "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
                 "bg": "rgb(33,35,43)"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
