@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 213,
+        "idCounter": 215,
         "themeColor": "#8E8CD8",
         "autoThemeColor": false,
         "wallpapers": [
@@ -379,39 +379,6 @@
             "title": "路过图床",
             "url": "https://imgchr.com/",
             "customTile": "",
-            "urlRandomToken": true
-        },
-        "app-172": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "img",
-                "content": "https://3o.hk/images/2022/03/30/unnamed.jpg",
-                "bg": "#2f3c99"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "",
-            "resizable": true,
-            "single": false,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "jinxnet节点池",
-            "url": "https://pool.jinxnet.xyz/",
-            "customTile": "https://pool.jinxnet.xyz/",
             "urlRandomToken": true
         },
         "app-175": {
@@ -949,8 +916,8 @@
             "badge": 0,
             "desc": "",
             "icon": {
-                "type": "str",
-                "content": "",
+                "type": "img",
+                "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
                 "bg": "rgb(115,88,147)"
             },
             "openMode": "normal",
@@ -970,8 +937,8 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "",
-            "url": "",
+            "title": "发薪日测速",
+            "url": "http://sst.greenfishpowered.cn/",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -1031,12 +998,6 @@
         {
             "title": "节点池",
             "children": [
-                {
-                    "app": "app-172",
-                    "title": "jinxnet节点池",
-                    "params": {},
-                    "hash": ""
-                },
                 {
                     "app": "app-176",
                     "title": "EdNovas的节点池",
@@ -1121,6 +1082,12 @@
                 {
                     "app": "app-188",
                     "title": "品云测速",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-203",
+                    "title": "发薪日测速",
                     "params": {},
                     "hash": ""
                 }
