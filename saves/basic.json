@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 215,
+        "idCounter": 218,
         "themeColor": "#8E8CD8",
         "autoThemeColor": false,
         "wallpapers": [
@@ -920,7 +920,7 @@
                 "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
                 "bg": "rgb(115,88,147)"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -949,9 +949,42 @@
             "badge": 0,
             "desc": "",
             "icon": {
+                "type": "img",
+                "content": "https://3o.hk/images/2022/03/30/unnamed-1.jpg",
+                "bg": "rgb(122,119,49)"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "FF测速",
+            "url": "https://speed.ffq.la/",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-217": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
                 "type": "str",
                 "content": "",
-                "bg": "rgb(122,119,49)"
+                "bg": "rgb(71,2,138)"
             },
             "openMode": "normal",
             "plugin": false,
@@ -1088,6 +1121,12 @@
                 {
                     "app": "app-203",
                     "title": "发薪日测速",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "app": "app-210",
+                    "title": "FF测速",
                     "params": {},
                     "hash": ""
                 }
